@@ -1,0 +1,16 @@
+{
+ "creation": "2026-09-30 15:05:55.395540",
+ "dark_value": "#0a0a0c",
+ "docstatus": 0,
+ "doctype": "Builder Token",
+ "group": "open-notes",
+ "idx": 0,
+ "is_standard": 0,
+ "modified": "2026-09-30 15:11:40.103681",
+ "modified_by": "Administrator",
+ "name": "on-on-accent",
+ "owner": "Administrator",
+ "token_name": "on-on-accent",
+ "type": "Color",
+ "value": "#1d1d1f"
+}

@@ -1,0 +1,16 @@
+{
+ "creation": "2026-09-30 15:05:55.379739",
+ "dark_value": "#f5f5f7",
+ "docstatus": 0,
+ "doctype": "Builder Token",
+ "group": "open-notes",
+ "idx": 0,
+ "is_standard": 0,
+ "modified": "2026-09-30 15:11:40.084986",
+ "modified_by": "Administrator",
+ "name": "on-text",
+ "owner": "Administrator",
+ "token_name": "on-text",
+ "type": "Color",
+ "value": "#1d1d1f"
+}

@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "creation": "2026-09-30 15:05:54.471556",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "web_app_url",
+  "android_download_url"
+ ],
+ "fields": [
+  {
+   "description": "Where the hosted web app lives. Leave empty and the site shows no web link.",
+   "fieldname": "web_app_url",
+   "fieldtype": "Data",
+   "label": "Web App URL",
+   "options": "URL"
+  },
+  {
+   "description": "Set to https://github.com/dawoodjee/open-notes/releases/latest once a release with the APK exists. Leave empty and the site shows no Android link.",
+   "fieldname": "android_download_url",
+   "fieldtype": "Data",
+   "label": "Android Download URL",
+   "options": "URL"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-09-30 15:05:54.471556",
+ "modified_by": "Administrator",
+ "module": "Open Notes Website",
+ "name": "Open Notes Website Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

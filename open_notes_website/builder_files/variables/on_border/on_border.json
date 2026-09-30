@@ -1,0 +1,16 @@
+{
+ "creation": "2026-09-30 15:05:55.387354",
+ "dark_value": "rgba(255, 255, 255, 0.12)",
+ "docstatus": 0,
+ "doctype": "Builder Token",
+ "group": "open-notes",
+ "idx": 0,
+ "is_standard": 0,
+ "modified": "2026-09-30 15:11:40.094520",
+ "modified_by": "Administrator",
+ "name": "on-border",
+ "owner": "Administrator",
+ "token_name": "on-border",
+ "type": "Color",
+ "value": "rgba(0, 0, 0, 0.1)"
+}

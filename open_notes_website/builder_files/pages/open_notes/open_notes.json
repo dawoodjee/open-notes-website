@@ -1,0 +1,1138 @@
+{
+ "app": "open_notes_website",
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "WebkitFontSmoothing": "antialiased",
+    "alignItems": "center",
+    "background": "var(--on-bg)",
+    "color": "var(--on-text)",
+    "display": "flex",
+    "flexDirection": "column",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
+     "blockId": "4b3ddea6c7",
+     "blockName": "Hero",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "letterSpacing": "0.02em",
+        "margin": "0"
+       },
+       "blockId": "b9c1532e22",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "open-notes · v0.1",
+       "mobileStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "72px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.025em",
+        "lineHeight": "1.05",
+        "margin": "0"
+       },
+       "blockId": "aff9f0b712",
+       "children": [],
+       "classes": [],
+       "element": "h1",
+       "innerHTML": "Notes that stay yours.",
+       "mobileStyles": {
+        "fontSize": "42px"
+       },
+       "tabletStyles": {
+        "fontSize": "56px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "21px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "efdf72ce55",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "A local-first notes app that works offline with no account, encrypts every note on your device, and syncs across your devices only when you switch it on. Open source, and yours to self-host.",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": "12px",
+        "marginTop": "12px"
+       },
+       "blockId": "2a7bb1ce96",
+       "children": [
+        {
+         "attributes": {
+          "href": "https://github.com/dawoodjee/open-notes",
+          "rel": "noopener",
+          "target": "_blank"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-accent)",
+          "border": "none",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-on-accent)",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "600",
+          "hover:opacity": "0.75",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "padding": "14px 28px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "4016fda5fd",
+         "blockName": "GitHub (hero)",
+         "children": [],
+         "classes": [],
+         "element": "a",
+         "innerHTML": "View on GitHub",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "element": "div",
+       "mobileStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
+     "blockId": "17a75dcbba",
+     "blockName": "What's different",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "cf17d984ec",
+       "children": [],
+       "classes": [],
+       "element": "h2",
+       "innerHTML": "What makes it different",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "tabletStyles": {
+        "fontSize": "34px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "grid",
+        "gap": "16px",
+        "gridTemplateColumns": "1fr 1fr",
+        "marginTop": "8px",
+        "width": "100%"
+       },
+       "blockId": "b786a2e86d",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "20px",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "28px"
+         },
+         "blockId": "2298f22cce",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "21px",
+            "fontWeight": "600",
+            "lineHeight": "1.3",
+            "margin": "0"
+           },
+           "blockId": "d1b66d7365",
+           "children": [],
+           "classes": [],
+           "element": "h3",
+           "innerHTML": "Local-first",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.55",
+            "margin": "0"
+           },
+           "blockId": "03118e7eae",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "It opens straight into a note and works fully offline. Your notes live on your device first; sync happens quietly in the background.",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "22px"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "20px",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "28px"
+         },
+         "blockId": "c0ef380597",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "21px",
+            "fontWeight": "600",
+            "lineHeight": "1.3",
+            "margin": "0"
+           },
+           "blockId": "caf45f69fd",
+           "children": [],
+           "classes": [],
+           "element": "h3",
+           "innerHTML": "Encrypted on your device",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.55",
+            "margin": "0"
+           },
+           "blockId": "af8e9729eb",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Titles, bodies and folder names are encrypted before they leave the device. The server — including one you run yourself — only ever holds ciphertext.",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "22px"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "20px",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "28px"
+         },
+         "blockId": "3b9c40257c",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "21px",
+            "fontWeight": "600",
+            "lineHeight": "1.3",
+            "margin": "0"
+           },
+           "blockId": "714f48c33c",
+           "children": [],
+           "classes": [],
+           "element": "h3",
+           "innerHTML": "No account required",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.55",
+            "margin": "0"
+           },
+           "blockId": "545b8c2750",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Start writing the moment it opens. Signing in is how you turn on sync between devices, never a condition for using the app.",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "22px"
+         },
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "20px",
+          "boxSizing": "border-box",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "10px",
+          "padding": "28px"
+         },
+         "blockId": "77c434e2bc",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "21px",
+            "fontWeight": "600",
+            "lineHeight": "1.3",
+            "margin": "0"
+           },
+           "blockId": "4609bac192",
+           "children": [],
+           "classes": [],
+           "element": "h3",
+           "innerHTML": "Open source, self-hostable",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.55",
+            "margin": "0"
+           },
+           "blockId": "912859798b",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "MIT licensed. The whole backend runs from one docker compose file, and the encryption guarantee doesn't depend on who runs the server.",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {
+          "padding": "22px"
+         },
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "1fr"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
+     "blockId": "77660bdf60",
+     "blockName": "Ownership",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "d20f956082",
+       "children": [],
+       "classes": [],
+       "element": "h2",
+       "innerHTML": "Your notes, on your terms.",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "tabletStyles": {
+        "fontSize": "34px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "ccafe9cc85",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "Every note has a <em>Visible to Apps</em> switch, and it starts off. Anything that wants a note's words has to go through a broker on your device: consent for each destination, access that expires, and a record of every disclosure. A tool that doesn't ask gets titles and dates, not your writing.",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "5ef15fcc8b",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "That is also the line for AI. Because the key already lives on your device, on-device features can work inside it. Anything that would send your words to a server would be a separate choice — explicit, and off unless you turn it on. AI features are on the roadmap, built to that rule.",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
+     "blockId": "c7e248b553",
+     "blockName": "Where it runs",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "2abea2e600",
+       "children": [],
+       "classes": [],
+       "element": "h2",
+       "innerHTML": "Where it runs today",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "tabletStyles": {
+        "fontSize": "34px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "maxWidth": "680px",
+        "width": "100%"
+       },
+       "blockId": "e3d634cddd",
+       "children": [
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTop": "1px solid var(--on-border)",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "ecd1fe1d9e",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "margin": "0"
+           },
+           "blockId": "e1726b405c",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Android",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.5",
+            "margin": "0"
+           },
+           "blockId": "008385b807",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Download the app below and install it directly.",
+           "mobileStyles": {},
+           "tabletStyles": {},
+           "visibilityCondition": {
+            "comesFrom": "dataScript",
+            "key": "android_url"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.5",
+            "margin": "0"
+           },
+           "blockId": "1731c522a3",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Runs today. A public download is coming.",
+           "mobileStyles": {},
+           "tabletStyles": {},
+           "visibilityCondition": {
+            "comesFrom": "dataScript",
+            "key": "android_pending"
+           }
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTop": "1px solid var(--on-border)",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "341801d91a",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "margin": "0"
+           },
+           "blockId": "3c50e18646",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Web",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.5",
+            "margin": "0"
+           },
+           "blockId": "8eecf15380",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Runs in your browser, and installs like an app.",
+           "mobileStyles": {},
+           "tabletStyles": {},
+           "visibilityCondition": {
+            "comesFrom": "dataScript",
+            "key": "web_url"
+           }
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.5",
+            "margin": "0"
+           },
+           "blockId": "4ab657cab5",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Built, and installs like an app. Public hosting is coming.",
+           "mobileStyles": {},
+           "tabletStyles": {},
+           "visibilityCondition": {
+            "comesFrom": "dataScript",
+            "key": "web_pending"
+           }
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {},
+         "baseStyles": {
+          "borderTop": "1px solid var(--on-border)",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "4px",
+          "padding": "18px 0",
+          "width": "100%"
+         },
+         "blockId": "fa98e762ce",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-text)",
+            "fontSize": "17px",
+            "fontWeight": "600",
+            "margin": "0"
+           },
+           "blockId": "cc880b8b7b",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "iPhone and iPad",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "color": "var(--on-muted)",
+            "fontSize": "17px",
+            "lineHeight": "1.5",
+            "margin": "0"
+           },
+           "blockId": "71ea909964",
+           "children": [],
+           "classes": [],
+           "element": "p",
+           "innerHTML": "Runs today if you build it yourself. The App Store listing is coming.",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "element": "div",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "element": "div",
+       "mobileStyles": {},
+       "tabletStyles": {}
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "17px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "46ec132f84",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "This is v0.1 — a personal project built in the open. Expect rough edges.",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
+     "blockId": "2d385002ad",
+     "blockName": "Links",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "bf252312ce",
+       "children": [],
+       "classes": [],
+       "element": "h2",
+       "innerHTML": "Get it",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "tabletStyles": {
+        "fontSize": "34px"
+       }
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": "12px",
+        "width": "100%"
+       },
+       "blockId": "4f18a09ac2",
+       "children": [
+        {
+         "attributes": {
+          "aria-disabled": "true",
+          "aria-label": "App Store — coming soon",
+          "role": "link",
+          "tabindex": "0",
+          "title": "Coming soon"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-text)",
+          "cursor": "not-allowed",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "500",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "opacity": "0.55",
+          "padding": "12px 22px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "f4e354f23f",
+         "blockName": "App Store (disabled)",
+         "children": [
+          {
+           "attributes": {},
+           "baseStyles": {
+            "margin": "0"
+           },
+           "blockId": "934d5b0665",
+           "children": [],
+           "classes": [
+            "on-label"
+           ],
+           "element": "span",
+           "innerHTML": "App Store",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "attributes": {},
+           "baseStyles": {
+            "margin": "0"
+           },
+           "blockId": "833fec24be",
+           "children": [],
+           "classes": [
+            "on-soon"
+           ],
+           "element": "span",
+           "innerHTML": "Coming soon",
+           "mobileStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "on-appstore"
+         ],
+         "element": "span",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "https://github.com/dawoodjee/open-notes",
+          "rel": "noopener",
+          "target": "_blank"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-text)",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "500",
+          "hover:opacity": "0.75",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "padding": "12px 22px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "c08ab42ab2",
+         "blockName": "GitHub",
+         "children": [],
+         "classes": [],
+         "element": "a",
+         "innerHTML": "GitHub",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        },
+        {
+         "attributes": {
+          "href": "#",
+          "rel": "noopener",
+          "target": "_blank"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-text)",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "500",
+          "hover:opacity": "0.75",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "padding": "12px 22px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "0d43338bce",
+         "blockName": "Android (from settings)",
+         "children": [],
+         "classes": [],
+         "dynamicValues": [
+          {
+           "comesFrom": "dataScript",
+           "key": "android_url",
+           "property": "href",
+           "type": "attribute"
+          }
+         ],
+         "element": "a",
+         "innerHTML": "Android",
+         "mobileStyles": {},
+         "tabletStyles": {},
+         "visibilityCondition": {
+          "comesFrom": "dataScript",
+          "key": "android_url"
+         }
+        },
+        {
+         "attributes": {
+          "href": "#",
+          "rel": "noopener",
+          "target": "_blank"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-text)",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "500",
+          "hover:opacity": "0.75",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "padding": "12px 22px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "6825f645db",
+         "blockName": "Web app (from settings)",
+         "children": [],
+         "classes": [],
+         "dynamicValues": [
+          {
+           "comesFrom": "dataScript",
+           "key": "web_url",
+           "property": "href",
+           "type": "attribute"
+          }
+         ],
+         "element": "a",
+         "innerHTML": "Open in your browser",
+         "mobileStyles": {},
+         "tabletStyles": {},
+         "visibilityCondition": {
+          "comesFrom": "dataScript",
+          "key": "web_url"
+         }
+        },
+        {
+         "attributes": {
+          "href": "mailto:adam.dawoodjee+notes@gmail.com"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "background": "var(--on-surface)",
+          "border": "1px solid var(--on-border)",
+          "borderRadius": "980px",
+          "boxSizing": "border-box",
+          "color": "var(--on-text)",
+          "display": "inline-flex",
+          "fontSize": "17px",
+          "fontWeight": "500",
+          "hover:opacity": "0.75",
+          "justifyContent": "center",
+          "minHeight": "44px",
+          "padding": "12px 22px",
+          "textDecoration": "none",
+          "transition": "opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1)"
+         },
+         "blockId": "5426e29c5e",
+         "blockName": "Reach out",
+         "children": [],
+         "classes": [],
+         "element": "a",
+         "innerHTML": "Reach out",
+         "mobileStyles": {},
+         "tabletStyles": {}
+        }
+       ],
+       "classes": [],
+       "element": "div",
+       "mobileStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {}
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "borderTop": "1px solid var(--on-border)",
+      "boxSizing": "border-box",
+      "maxWidth": "960px",
+      "padding": "32px 24px 48px",
+      "width": "100%"
+     },
+     "blockId": "53f222f92a",
+     "blockName": "Footer",
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "13px",
+        "lineHeight": "1.4",
+        "margin": "0"
+       },
+       "blockId": "736a4e01a2",
+       "children": [],
+       "classes": [],
+       "element": "p",
+       "innerHTML": "MIT licensed · Built in the open",
+       "mobileStyles": {},
+       "tabletStyles": {}
+      }
+     ],
+     "classes": [],
+     "element": "footer",
+     "mobileStyles": {
+      "padding": "24px 16px 40px"
+     },
+     "tabletStyles": {}
+    }
+   ],
+   "classes": [],
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "tabletStyles": {}
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-09-30 15:05:55.435638",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "head_html": "<style>\nhtml:root { font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif; }\n.on-appstore .on-soon { display: none; }\n.on-appstore:hover .on-label, .on-appstore:focus .on-label { display: none; }\n.on-appstore:hover .on-soon, .on-appstore:focus .on-soon { display: inline; }\nhtml, body { margin: 0; background: var(--on-bg); }\na:focus-visible, .on-appstore:focus-visible { outline: 2px solid var(--on-accent); outline-offset: 3px; }\n@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }\n</style>",
+ "idx": 0,
+ "is_standard": 1,
+ "is_template": 0,
+ "meta_description": "A local-first, end-to-end encrypted notes app. Works offline with no account; sync is something you switch on. Open source and self-hostable.",
+ "modified": "2026-09-30 15:11:40.279866",
+ "modified_by": "Administrator",
+ "name": "open-notes",
+ "owner": "Administrator",
+ "page_data_script": "# Links that appear only once their URL is set in Open Notes Website Settings.\ndata.web_url = frappe.db.get_single_value(\"Open Notes Website Settings\", \"web_app_url\") or \"\"\ndata.android_url = frappe.db.get_single_value(\"Open Notes Website Settings\", \"android_download_url\") or \"\"\n# Visibility conditions only test truthiness, so \"not set yet\" needs its own key.\ndata.web_pending = not data.web_url\ndata.android_pending = not data.android_url\n",
+ "page_name": "open-notes",
+ "page_title": "open-notes — notes that stay yours",
+ "preview": "/assets/builder/images/fallback.png",
+ "project_folder": "open_notes_website",
+ "published": 1,
+ "route": "open-notes"
+}
