@@ -8,7 +8,8 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+# Builder renders the page (builder_files/ is imported by its after_app_install).
+required_apps = ["builder"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
