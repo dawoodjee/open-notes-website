@@ -802,6 +802,127 @@
       "padding": "96px 24px",
       "width": "100%"
      },
+     "blockId": "0f7e762539",
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "64px 16px"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "862ec30b42",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "28px"
+       },
+       "tabletStyles": {
+        "fontSize": "34px"
+       },
+       "children": [],
+       "innerHTML": "Why I built it"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "9380625756",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "For years I had more ideas than I knew what to do with. I'd jump from one project to the next, or hang on to ones that weren't working."
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "05adf476cf",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "Pieter Levels' book <em>MAKE</em> changed how I worked: write everything down, ship small, let go fast. I built IDEAS around that, a Notion template I sold for a few dollars."
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "a76fab50f7",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "It worked, but my ideas lived in someone else's database. open-notes is what I wanted instead: the same habit of writing everything down, in an app that keeps notes encrypted on my own devices, works without an account, and shares nothing I haven't allowed. So it's free, and the code is open."
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "ad06a81712",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "— Adam Dawoodjee"
+      }
+     ],
+     "blockName": "Story"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "20px",
+      "maxWidth": "960px",
+      "padding": "96px 24px",
+      "width": "100%"
+     },
      "blockId": "2d385002ad",
      "blockName": "Links",
      "children": [
@@ -1077,8 +1198,13 @@
       "padding": "32px 24px 48px",
       "width": "100%"
      },
-     "blockId": "53f222f92a",
-     "blockName": "Footer",
+     "blockId": "58eb42c42d",
+     "classes": [],
+     "element": "footer",
+     "mobileStyles": {
+      "padding": "24px 16px 40px"
+     },
+     "tabletStyles": {},
      "children": [
       {
        "attributes": {},
@@ -1088,21 +1214,16 @@
         "lineHeight": "1.4",
         "margin": "0"
        },
-       "blockId": "736a4e01a2",
-       "children": [],
+       "blockId": "61d8c35986",
        "classes": [],
        "element": "p",
-       "innerHTML": "MIT licensed · Built in the open",
        "mobileStyles": {},
-       "tabletStyles": {}
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "MIT licensed · Built in the open by Adam Dawoodjee · <a href=\"/privacy\">Privacy</a> · <a href=\"/terms\">Terms</a>"
       }
      ],
-     "classes": [],
-     "element": "footer",
-     "mobileStyles": {
-      "padding": "24px 16px 40px"
-     },
-     "tabletStyles": {}
+     "blockName": "Footer"
     }
    ],
    "classes": [],
@@ -1119,12 +1240,12 @@
  "doctype": "Builder Page",
  "draft_blocks": null,
  "dynamic_route": 0,
- "head_html": "<style>\nhtml:root { font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif; }\n.on-appstore .on-soon { display: none; }\n.on-appstore:hover .on-label, .on-appstore:focus .on-label { display: none; }\n.on-appstore:hover .on-soon, .on-appstore:focus .on-soon { display: inline; }\nhtml, body { margin: 0; background: var(--on-bg); }\na:focus-visible, .on-appstore:focus-visible { outline: 2px solid var(--on-accent); outline-offset: 3px; }\n@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }\n</style>",
+ "head_html": "<style>\nhtml:root { font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif; }\n.on-appstore .on-soon { display: none; }\n.on-appstore:hover .on-label, .on-appstore:focus .on-label { display: none; }\n.on-appstore:hover .on-soon, .on-appstore:focus .on-soon { display: inline; }\nhtml, body { margin: 0; background: var(--on-bg); }\na:focus-visible, .on-appstore:focus-visible { outline: 2px solid var(--on-accent); outline-offset: 3px; }\n@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }\nfooter a, .on-legal a:not(.on-choices) { color: inherit; text-decoration: underline; text-underline-offset: 2px; }\n.on-legal ul { margin: 0; padding-left: 1.25em; }\n.on-legal li + li { margin-top: 10px; }\n.on-legal strong { color: var(--on-text); font-weight: 600; }\n.on-choices { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; border: 1px solid var(--on-border); color: var(--on-text); text-decoration: none; font-weight: 600; }\n</style>\n{% include \"open_notes_website/templates/includes/on_analytics.html\" %}",
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
  "meta_description": "A local-first, end-to-end encrypted notes app. Works offline with no account; sync is something you switch on. Open source and self-hostable.",
- "modified": "2026-09-30 15:11:40.279866",
+ "modified": "2026-10-16 20:19:05.525506",
  "modified_by": "Administrator",
  "name": "open-notes",
  "owner": "Administrator",

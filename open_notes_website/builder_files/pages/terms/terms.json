@@ -1,0 +1,670 @@
+{
+ "app": "open_notes_website",
+ "authenticated_access": 0,
+ "client_scripts": [],
+ "creation": "2026-10-16 20:19:05.525506",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "head_html": "<style>\nhtml:root { font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif; }\n.on-appstore .on-soon { display: none; }\n.on-appstore:hover .on-label, .on-appstore:focus .on-label { display: none; }\n.on-appstore:hover .on-soon, .on-appstore:focus .on-soon { display: inline; }\nhtml, body { margin: 0; background: var(--on-bg); }\na:focus-visible, .on-appstore:focus-visible { outline: 2px solid var(--on-accent); outline-offset: 3px; }\n@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }\nfooter a, .on-legal a:not(.on-choices) { color: inherit; text-decoration: underline; text-underline-offset: 2px; }\n.on-legal ul { margin: 0; padding-left: 1.25em; }\n.on-legal li + li { margin-top: 10px; }\n.on-legal strong { color: var(--on-text); font-weight: 600; }\n.on-choices { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; border: 1px solid var(--on-border); color: var(--on-text); text-decoration: none; font-weight: 600; }\n</style>\n{% include \"open_notes_website/templates/includes/on_analytics.html\" %}",
+ "idx": 0,
+ "is_standard": 1,
+ "is_template": 0,
+ "meta_description": "The terms for the open-notes sync service and this website.",
+ "modified": "2026-10-16 20:19:05.525506",
+ "modified_by": "Administrator",
+ "name": "terms",
+ "owner": "Administrator",
+ "page_data_script": "",
+ "page_name": "terms",
+ "page_title": "Terms — open-notes",
+ "preview": "/assets/builder/images/fallback.png",
+ "project_folder": "open_notes_website",
+ "published": 1,
+ "route": "terms",
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "WebkitFontSmoothing": "antialiased",
+    "alignItems": "center",
+    "background": "var(--on-bg)",
+    "color": "var(--on-text)",
+    "display": "flex",
+    "flexDirection": "column",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "classes": [],
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "tabletStyles": {},
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "96px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "178827314f",
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {
+        "href": "/"
+       },
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "15px",
+        "textDecoration": "none"
+       },
+       "blockId": "614167ab34",
+       "classes": [],
+       "element": "a",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "← open-notes"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "56px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.1",
+        "margin": "0"
+       },
+       "blockId": "a0f261e234",
+       "classes": [],
+       "element": "h1",
+       "mobileStyles": {
+        "fontSize": "36px"
+       },
+       "tabletStyles": {
+        "fontSize": "46px"
+       },
+       "children": [],
+       "innerHTML": "Terms"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "13px",
+        "lineHeight": "1.4",
+        "margin": "0"
+       },
+       "blockId": "f811851513",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "Last updated 16 October 2026"
+      }
+     ],
+     "blockName": "Heading"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "70a1c854b5",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "e8297f63bb",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "open-notes is free, open-source software. These terms cover the sync service I run and this website. The code itself is covered by its <a href=\"https://github.com/dawoodjee/open-notes/blob/main/LICENSE\" rel=\"noopener\">MIT licence</a>."
+      }
+     ],
+     "blockName": "Intro"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "79983f6dfa",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "d7a416e0ec",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Using the sync service"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "ce82af0f6d",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "<ul><li>It's free. You need to be at least 13, and old enough where you live to agree to these terms.</li><li>Don't use it to break the law, or to attack, overload or get around the limits of the service.</li><li>I can't read your notes, so I can't police what's in them. I can suspend accounts that abuse the service itself.</li></ul>"
+      }
+     ],
+     "blockName": "Using the sync service"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "ce37962a4d",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "a88d04f21b",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Your notes are yours"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "6af4b7f7b1",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "You keep every right to what you write. I claim none, and the encryption means I couldn't read it if I wanted to."
+      }
+     ],
+     "blockName": "Your notes are yours"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "924f41e1b1",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "46c863649b",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Keeping your notes safe"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "bac8ccc69f",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "Your recovery code is the only way to open your notes on a new device. If you lose it <strong>and</strong> every signed-in device, the notes are gone, and nobody can restore them. That's the cost of encryption no one else can open. If your notes matter, export them regularly."
+      }
+     ],
+     "blockName": "Keeping your notes safe"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "0f65947e0a",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "85814bb6de",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "No guarantees"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "88ae076fdc",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "This is version 0.1, a personal project. The app and the service are provided as they are, without warranty of any kind. The service may go down, change or end. If I shut it down, I'll aim to give notice so you can export."
+      }
+     ],
+     "blockName": "No guarantees"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "26a1377931",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "409d0879d1",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Liability"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "4461efe53e",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "To the extent the law allows, I'm not liable for lost data or any other loss from using open-notes. You pay nothing for it, so there is nothing to refund."
+      }
+     ],
+     "blockName": "Liability"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "1b958d8d1f",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "55b76a0038",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Changes"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "8cf83cf759",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "If these terms change, the date at the top changes too. Using the service after that means you accept them."
+      }
+     ],
+     "blockName": "Changes"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 96px",
+      "width": "100%"
+     },
+     "blockId": "dbe0b95303",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 64px"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "bb519b0471",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Contact"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "dcf14d3173",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "<a href=\"mailto:adam.dawoodjee+notes@gmail.com\">adam.dawoodjee+notes@gmail.com</a>"
+      }
+     ],
+     "blockName": "Contact"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "borderTop": "1px solid var(--on-border)",
+      "boxSizing": "border-box",
+      "maxWidth": "960px",
+      "padding": "32px 24px 48px",
+      "width": "100%"
+     },
+     "blockId": "a753a75763",
+     "classes": [],
+     "element": "footer",
+     "mobileStyles": {
+      "padding": "24px 16px 40px"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "13px",
+        "lineHeight": "1.4",
+        "margin": "0"
+       },
+       "blockId": "71ddf77b7f",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "MIT licensed · Built in the open by Adam Dawoodjee · <a href=\"/privacy\">Privacy</a> · <a href=\"/terms\">Terms</a>"
+      }
+     ],
+     "blockName": "Footer"
+    }
+   ]
+  }
+ ]
+}

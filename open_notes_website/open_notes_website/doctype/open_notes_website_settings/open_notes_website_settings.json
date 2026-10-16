@@ -7,7 +7,10 @@
  "engine": "InnoDB",
  "field_order": [
   "web_app_url",
-  "android_download_url"
+  "android_download_url",
+  "analytics_section",
+  "ga_measurement_id",
+  "clarity_project_id"
  ],
  "fields": [
   {
@@ -23,6 +26,24 @@
    "fieldtype": "Data",
    "label": "Android Download URL",
    "options": "URL"
+  },
+  {
+   "fieldname": "analytics_section",
+   "fieldtype": "Section Break",
+   "label": "Analytics",
+   "description": "Website only; the app has no analytics. Leave both empty and the site loads no analytics and makes no location lookup. Visitors in the EU and California are asked first; everyone else is opted in (see the privacy page)."
+  },
+  {
+   "fieldname": "ga_measurement_id",
+   "fieldtype": "Data",
+   "label": "Google Analytics Measurement ID",
+   "description": "Looks like G-XXXXXXXXXX (GA4 → Admin → Data streams)."
+  },
+  {
+   "fieldname": "clarity_project_id",
+   "fieldtype": "Data",
+   "label": "Microsoft Clarity Project ID",
+   "description": "The short ID in Clarity → Settings → Setup, e.g. abcd1234ef."
   }
  ],
  "grid_page_length": 50,
