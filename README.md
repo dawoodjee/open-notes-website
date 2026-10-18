@@ -1,8 +1,9 @@
 ### Open Notes Website
 
-The marketing page for [open-notes](https://github.com/dawoodjee/open-notes): a
-local-first, end-to-end encrypted notes app. One page, built in
-[Frappe Builder](https://github.com/frappe/builder) and shipped with this app.
+The website for [open-notes](https://github.com/dawoodjee/open-notes): a
+local-first, end-to-end encrypted notes app. Three pages (`/open-notes`,
+`/privacy`, `/terms`), built in [Frappe Builder](https://github.com/frappe/builder)
+and shipped with this app.
 
 ### Requirements
 
@@ -21,8 +22,8 @@ bench --site <site> install-app open_notes_website
 ```
 
 Installing pulls in Builder if the site doesn't have it (`required_apps`), and
-Builder's own install hook imports the page from `builder_files/`: the page at
-`/open-notes`, its colour tokens, and its data script.
+Builder's own install hook imports the pages from `builder_files/`, with their
+colour tokens and data scripts.
 
 **Restart the bench processes after installing** (`bench restart` in
 production, or stop and re-run `bench start` in development). Processes started
@@ -42,6 +43,21 @@ them:
 - **Web App URL**: wherever the hosted web app lives.
 - **Android Download URL**: `https://github.com/dawoodjee/open-notes/releases/latest`
   once a release with the APK attached exists.
+- **Google Analytics Measurement ID** and **Microsoft Clarity Project ID**:
+  website analytics. Both empty (the default) means no analytics script, no
+  consent banner and no location lookup. Saving checks each ID's format,
+  because they're written into a script on every page.
+
+#### How analytics consent works
+
+`templates/includes/on_analytics.html`, included from each page's head HTML.
+On a first visit the browser asks `ipapi.co` for the visitor's country. In the
+EU or California, or if the lookup fails, a banner asks first; elsewhere the
+visitor is opted in. Until then (and after Refuse) Google Analytics runs with
+every consent type denied and Clarity doesn't load. Accept grants analytics
+storage only, never Google's ad flags. Any element with `data-analytics-choices`
+reopens the banner. The privacy page describes exactly this: change the two
+together.
 
 ### Editing the page
 

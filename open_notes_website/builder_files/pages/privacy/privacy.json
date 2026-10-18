@@ -1,0 +1,643 @@
+{
+ "app": "open_notes_website",
+ "authenticated_access": 0,
+ "client_scripts": [],
+ "creation": "2026-10-16 20:19:05.525506",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "head_html": "<style>\nhtml:root { font-family: -apple-system, BlinkMacSystemFont, \"SF Pro Text\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif; }\n.on-appstore .on-soon { display: none; }\n.on-appstore:hover .on-label, .on-appstore:focus .on-label { display: none; }\n.on-appstore:hover .on-soon, .on-appstore:focus .on-soon { display: inline; }\nhtml, body { margin: 0; background: var(--on-bg); }\na:focus-visible, .on-appstore:focus-visible { outline: 2px solid var(--on-accent); outline-offset: 3px; }\n@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }\nfooter a, .on-legal a:not(.on-choices) { color: inherit; text-decoration: underline; text-underline-offset: 2px; }\n.on-legal ul { margin: 0; padding-left: 1.25em; }\n.on-legal li + li { margin-top: 10px; }\n.on-legal strong { color: var(--on-text); font-weight: 600; }\n.on-choices { display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; border: 1px solid var(--on-border); color: var(--on-text); text-decoration: none; font-weight: 600; }\n</style>\n{% include \"open_notes_website/templates/includes/on_analytics.html\" %}",
+ "idx": 0,
+ "is_standard": 1,
+ "is_template": 0,
+ "meta_description": "What the open-notes app and this website collect: the app has no analytics; the website uses Google Analytics and Microsoft Clarity.",
+ "modified": "2026-10-16 20:19:05.525506",
+ "modified_by": "Administrator",
+ "name": "privacy",
+ "owner": "Administrator",
+ "page_data_script": "# The \"change your choice\" button only means something when analytics are set up.\ndata.analytics_on = bool(\n\tfrappe.db.get_single_value(\"Open Notes Website Settings\", \"ga_measurement_id\")\n\tor frappe.db.get_single_value(\"Open Notes Website Settings\", \"clarity_project_id\")\n)\n",
+ "page_name": "privacy",
+ "page_title": "Privacy — open-notes",
+ "preview": "/assets/builder/images/fallback.png",
+ "project_folder": "open_notes_website",
+ "published": 1,
+ "route": "privacy",
+ "blocks": [
+  {
+   "attributes": {},
+   "baseStyles": {
+    "WebkitFontSmoothing": "antialiased",
+    "alignItems": "center",
+    "background": "var(--on-bg)",
+    "color": "var(--on-text)",
+    "display": "flex",
+    "flexDirection": "column",
+    "minHeight": "100vh",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "classes": [],
+   "element": "div",
+   "mobileStyles": {},
+   "originalElement": "body",
+   "tabletStyles": {},
+   "children": [
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "96px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "7066193495",
+     "classes": [],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "48px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {
+        "href": "/"
+       },
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "15px",
+        "textDecoration": "none"
+       },
+       "blockId": "80e59eaace",
+       "classes": [],
+       "element": "a",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "← open-notes"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "56px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.02em",
+        "lineHeight": "1.1",
+        "margin": "0"
+       },
+       "blockId": "83382647ca",
+       "classes": [],
+       "element": "h1",
+       "mobileStyles": {
+        "fontSize": "36px"
+       },
+       "tabletStyles": {
+        "fontSize": "46px"
+       },
+       "children": [],
+       "innerHTML": "Privacy"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "13px",
+        "lineHeight": "1.4",
+        "margin": "0"
+       },
+       "blockId": "95db64b301",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "Last updated 16 October 2026"
+      }
+     ],
+     "blockName": "Heading"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "67c1feb420",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "9bc809d1b6",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "The short version: <strong>the open-notes app has no analytics and no tracking</strong>, and your notes are encrypted on your device before they go anywhere. <strong>This website does use analytics</strong>, as described below. I'm Adam Dawoodjee, and I run both."
+      }
+     ],
+     "blockName": "Intro"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "a51f815af1",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "6d1adaa21f",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "The app"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "cccd9d00ed",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "<ul><li><strong>Without an account</strong>, your notes stay on your device. The app sends nothing anywhere.</li><li><strong>With sync on</strong>, you sign in with an email code or with Google. The sync service I run (on Supabase) then holds your email address, your sign-in records, and your notes and folders in encrypted form.</li><li><strong>What the server can and can't see.</strong> Titles, note text and folder names are encrypted on your device with a key only you hold, so neither the server nor I can read them. The server sees what it needs to sync: when notes and folders were created and changed, how folders nest, and flags such as whether a note is in Recently Deleted.</li><li><strong>Signing in with Google</strong> gives the service your email address and the name and picture on your Google account, and Google knows you signed in.</li><li><strong>Deleting your account</strong> in Settings removes it, with your encrypted notes and keys, from the server 30 days later. You can cancel during those 30 days. You can export your notes at any time as a zip of Markdown files.</li><li><strong>If you host your own server</strong>, it's yours, and none of this involves me.</li></ul>"
+      }
+     ],
+     "blockName": "The app"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "109d0efbad",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "f28c1f8b4d",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "This website"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "34bf5dfa6d",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "This website uses <strong>Google Analytics</strong> (which pages people visit and how they got there) and <strong>Microsoft Clarity</strong> (heatmaps and recordings of clicks and scrolling). They collect your IP address, device and browser details, and how you use the pages. The site shows no ads, and Google's advertising features are never turned on."
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "f3af17cb30",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "<ul><li><strong>Who is asked.</strong> On your first visit, your browser asks ipapi.co to estimate your country from your IP address. If you're in the EU or California, or the estimate fails, you're asked before analytics run. Everywhere else, analytics are on by default and no banner appears.</li><li><strong>Before you answer, or if you refuse</strong>, Google Analytics runs with cookies denied: it sends cookieless pings without identifiers. Clarity doesn't load at all.</li><li><strong>Your choice</strong> is stored in your browser, not on a server. Clearing this site's data resets it.</li></ul>"
+      },
+      {
+       "attributes": {
+        "href": "#",
+        "data-analytics-choices": ""
+       },
+       "baseStyles": {},
+       "blockId": "847f52d9f5",
+       "classes": [
+        "on-choices"
+       ],
+       "element": "a",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "Change your analytics choice",
+       "visibilityCondition": {
+        "comesFrom": "dataScript",
+        "key": "analytics_on"
+       }
+      }
+     ],
+     "blockName": "This website"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "8d78af9808",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "c04f2f9dec",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Who else is involved"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "8fe52a4bfb",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "I don't sell or rent anyone's data. These services process it for me, each under its own privacy policy: Supabase (the sync service), Google (sign-in, if you choose it, and analytics), Microsoft (Clarity), ipapi.co (the country estimate), and the company that hosts this website."
+      }
+     ],
+     "blockName": "Who else is involved"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "0711912114",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "d4787497dd",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Your rights"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "ec47dc2590",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "You can ask what I hold about you, or ask me to delete it. Your notes are encrypted, so I can't see or hand over what they say, only that they exist."
+      }
+     ],
+     "blockName": "Your rights"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 0",
+      "width": "100%"
+     },
+     "blockId": "c294fd111f",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 0"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "3d48d582e0",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Changes"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "d37b1a034a",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "If this policy changes, the date at the top changes too."
+      }
+     ],
+     "blockName": "Changes"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "alignItems": "flex-start",
+      "boxSizing": "border-box",
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "16px",
+      "maxWidth": "960px",
+      "padding": "48px 24px 96px",
+      "width": "100%"
+     },
+     "blockId": "c0f719eec1",
+     "classes": [
+      "on-legal"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "32px 16px 64px"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-text)",
+        "fontSize": "28px",
+        "fontWeight": "700",
+        "letterSpacing": "-0.01em",
+        "lineHeight": "1.15",
+        "margin": "0"
+       },
+       "blockId": "53e27ce7a5",
+       "classes": [],
+       "element": "h2",
+       "mobileStyles": {
+        "fontSize": "22px"
+       },
+       "tabletStyles": {
+        "fontSize": "24px"
+       },
+       "children": [],
+       "innerHTML": "Contact"
+      },
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "19px",
+        "lineHeight": "1.6",
+        "margin": "0",
+        "maxWidth": "680px"
+       },
+       "blockId": "8cd19127f1",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {
+        "fontSize": "17px"
+       },
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "<a href=\"mailto:adam.dawoodjee+notes@gmail.com\">adam.dawoodjee+notes@gmail.com</a>"
+      }
+     ],
+     "blockName": "Contact"
+    },
+    {
+     "attributes": {},
+     "baseStyles": {
+      "borderTop": "1px solid var(--on-border)",
+      "boxSizing": "border-box",
+      "maxWidth": "960px",
+      "padding": "32px 24px 48px",
+      "width": "100%"
+     },
+     "blockId": "48af0111fa",
+     "classes": [],
+     "element": "footer",
+     "mobileStyles": {
+      "padding": "24px 16px 40px"
+     },
+     "tabletStyles": {},
+     "children": [
+      {
+       "attributes": {},
+       "baseStyles": {
+        "color": "var(--on-muted)",
+        "fontSize": "13px",
+        "lineHeight": "1.4",
+        "margin": "0"
+       },
+       "blockId": "78f24021fe",
+       "classes": [],
+       "element": "p",
+       "mobileStyles": {},
+       "tabletStyles": {},
+       "children": [],
+       "innerHTML": "MIT licensed · Built in the open by Adam Dawoodjee · <a href=\"/privacy\">Privacy</a> · <a href=\"/terms\">Terms</a>"
+      }
+     ],
+     "blockName": "Footer"
+    }
+   ]
+  }
+ ]
+}
