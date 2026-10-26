@@ -40,7 +40,7 @@ Desk → **Open Notes Website Settings**. Both links stay hidden until set, so t
 page never ships a dead link, and the "Where it runs today" copy changes with
 them:
 
-- **Web App URL**: wherever the hosted web app lives.
+- **Web App URL**: wherever the hosted web app lives (e.g. `https://web.notes.casa`).
 - **Android Download URL**: `https://github.com/dawoodjee/open-notes/releases/latest`
   once a release with the APK attached exists.
 - **Google Analytics Measurement ID** and **Microsoft Clarity Project ID**:
@@ -58,6 +58,14 @@ every consent type denied and Clarity doesn't load. Accept grants analytics
 storage only, never Google's ad flags. Any element with `data-analytics-choices`
 reopens the banner. The privacy page describes exactly this: change the two
 together.
+
+### Hosting the web app beside the site
+
+The web app isn't served by Frappe: it's a static folder (the notes repo's
+`npm run build:web` output) on its own subdomain, with a standalone nginx server
+block in `deploy/web-app.nginx.conf`. Fill in its three placeholders and put it
+in `/etc/nginx/conf.d/`. Bench never writes that file, so `bench setup nginx`
+leaves it alone.
 
 ### Editing the page
 
